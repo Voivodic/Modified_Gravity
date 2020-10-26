@@ -359,7 +359,7 @@ for(j=0;j<cont;j++){
 }
 
 for(i=0;i<cont;i++)
-	P[i] = d[i]*d[i]/1.0285;
+	P[i] = d[i]*d[i];
 
 camb = fopen("Matter_Power_MG.dat", "w");
 if (camb == NULL) {
